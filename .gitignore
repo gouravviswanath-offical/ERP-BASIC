@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Environment secrets
+.env
+*.env
+
+# Local Databases & Dynamic Uploads
+*.db
+*.sqlite3
+erp.db
+dataset_current.csv
+temp_*
+*.tmp
+
+# Streamlit
+.streamlit/secrets.toml
+
+# IDE
+.vscode/
+.idea/
+
